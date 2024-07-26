@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleek Style</title>
+    <link rel="icon" href="/assets/images/sleek-style-high-resolution-logo-white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Playfair+Display+SC:wght@700&family=Poppins:wght@300;500&family=Rajdhani:wght@500&family=Rubik+Lines&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- Navigation -->
+
+        <div class="navigation-main">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav-1">
+                <div class="nav-logo">Sleek Style</div>
+            </div>
+
+            <div class="nav-center">
+                <div class="home"><a href="index.html">Home</a></div>
+                <div class="about"><a href="About.html">About</a></div>
+                <div class="blog"><a href="blog.html">Blog</a></div>
+                <div class="shop"> <a href="shop.html">Shop</a></div>
+                <div class="contact"><a href="contact.html">Contact</a></div>
+            </div>
+            <div class="nav-icons">
+                <div class="search"><span class="material-symbols-outlined">search</span></div>
+                <div class="cart"><span class="material-symbols-outlined">shopping_cart</span>
+                    <div class="cart-no" id="cart">0</div>
+                </div>
+                <div class="menu"><span class="material-symbols-outlined">menu</span></div>
+            </div>
+        </div>
+        <!-- Navigayion-End -->
+        <!-- Hero -->
+        <div class="slider">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active hero-main">
+                        <img src="/assets/images/hero-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block hero-text">
+                            <div class="hero-collection">Summer Collection</div>
+                            <div class="hero-title">Fall - Summer Collections 2024</div>
+                            <div class="hero-content">A specialist label creating luxury essentials. Ethically crafted
+                                with an unwavering
+                                commitment to exceptional quality.
+                            </div>
+                            <div class="hero-btn"><button><span>SHOP NOW</span></button></div>
+                            <div class="hero-icons">
+                                <div class="hero-facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="hero-twitter"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="hero-pinterest"><i class="fa-brands fa-pinterest-p"></i></div>
+                                <div class="hero-insta"><i class="fa-brands fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item hero-main">
+                        <img src="/assets/images/hero-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block hero-text">
+                            <div class="hero-collection">Winter Collection </div>
+                            <div class="hero-title">Fall - Winter Collections 2024</div>
+                            <div class="hero-content">A specialist label creating luxury essentials. Ethically crafted
+                                with an unwavering
+                                commitment to exceptional quality.
+                            </div>
+                            <div class="hero-btn"><button><span>SHOP NOW</span></button></div>
+                            <div class="hero-icons">
+                                <div class="hero-facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="hero-twitter"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="hero-pinterest"><i class="fa-brands fa-pinterest-p"></i></div>
+                                <div class="hero-insta"><i class="fa-brands fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="material-symbols-outlined arrow-left">arrow_left_alt</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="material-symbols-outlined arrow-right">arrow_right_alt</span>
+                </button>
+            </div>
+        </div>
+        <!-- Hero-End -->
+        <!--Section-1 -->
+        <div class="categories">
+            <div class="catergories-content">
+                <div class="" onclick="All()" id="all">All</div>
+                <div class="" onclick="plain()" id="plain">Plain T-Shirts</div>
+                <div class="" onclick="printed()" id="printed">Printed T-Shirts</div>
+                <div class="" onclick="oversized()" id="oversized">Over-Sized T-Shirts</div>
+                <div class="" onclick="polo()" id="polo">Polo T-Shirts</div>
+            </div>
+            <div class="dropdown phone-drop">
+                <div class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span id="drop-change"> ALL</span>
+                </div>
+
+                <div class="dropdown-menu">
+                    <div class="dropdown-item" onclick="All()" id="all">All</div>
+                    <div class="dropdown-item" onclick="plain()" id="plain">Plain T-Shirts</div>
+                    <div class="dropdown-item" onclick="printed()" id="printed">Printed T-Shirts</div>
+                    <div class="dropdown-item" onclick="oversized()" id="oversized">Over-Sized T-Shirts</div>
+                    <div class="dropdown-item" onclick="polo()" id="polo">Polo T-Shirts</div>
+                </div>
+            </div>
+        </div>
+        <div class="products-grid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-1"
+                        data-aos="flip-left" data-aos-easing="linear" data-aos-delay="400">
+                        <div class="card printed" onclick="p1()">
+                            <img class="card-img-top" src="/assets/images/img-1.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Black Game Over Minimal Typography T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹583 </span><del>₹1799</del> <span
+                                        class="off">67% OFF</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-2"
+                        data-aos="flip-left" data-aos-easing="linear" data-aos-delay="500">
+                        <div class="card printed" onclick="p2()">
+                            <img class="card-img-top" src="/assets/images/img2.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Grey Spider Graphic Printed Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹749 </span><del>₹1499</del> <span
+                                        class="off">50% OFF</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-3"
+                        data-aos="flip-left" data-aos-easing="linear" data-aos-delay="600">
+                        <div class="card printed" onclick="p3()">
+                            <img class="card-img-top" src="/assets/images/img-3.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Lilac The Traveller Graphic Printed Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹599 </span><del>₹1299</del> <span
+                                        class="off">53% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-4"
+                        data-aos="flip-left" data-aos-easing="linear" data-aos-delay="700">
+                        <div class="card polo" onclick="p4()">
+                            <img class="card-img-top" src="/assets/images/img-4.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Yellow T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹849 </span><del>₹2199</del> <span
+                                        class="off">61% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-5"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="400">
+                        <div class="card printed oversized" onclick=" p5()">
+                            <img class="card-img-top" src="/assets/images/img-5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Green Snoopy Stripboard Graphic Printed Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹649 </span><del>₹1299</del> <span
+                                        class="off">50% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-6"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="500">
+                        <div class="card polo" onclick="p6()">
+                            <img class="card-img-top" src="/assets/images/img-6.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Green & Black Color Block Polo T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹599 </span><del>₹1699</del> <span
+                                        class="off">64% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-7"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="600">
+                        <div class="card printed  oversized" onclick=" p7()">
+                            <img class="card-img-top" src="/assets/images/img-7.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Pink Tom Chase Graphic Printed Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹510 </span><del>₹1399</del> <span
+                                        class="off">63% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-8"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="700">
+                        <div class="card printed oversized" onclick=" p8()">
+                            <img class="card-img-top" src="/assets/images/img-8.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Black Legendary Sanin Graphic Printed Oversized Acid Wash
+                                    T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹749</span> <del>₹1299</del> <span
+                                        class="off">42% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-9"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="400">
+                        <div class="card plain" onclick="p9()">
+                            <img class="card-img-top" src="/assets/images/img-9.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's White T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹799</span> <del>₹1649</del> <span
+                                        class="off">51% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-10"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="500">
+                        <div class="card plain oversized" onclick=" p10()">
+                            <img class="card-img-top" src="/assets/images/img-10.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Red Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹583</span> <del>₹1799</del> <span
+                                        class="off">67% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-11"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="600">
+                        <div class="card plain" onclick="p11()">
+                            <img class="card-img-top" src="/assets/images/img-11.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Purple T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹549</span> <del>₹799</del> <span
+                                        class="off">31% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-12"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="700">
+                        <div class="card plain oversized" onclick=" p12()">
+                            <img class="card-img-top" src="/assets/images/imhg-12.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Pink Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹549</span> <del>₹799</del> <span
+                                        class="off">31% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-13"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="400">
+                        <div class="card polo" onclick="p13()">
+                            <img class="card-img-top" src="/assets/images/img-17.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Lemon Crome & Crimson Red Color Block Polo T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹449</span> <del>₹1199</del> <span
+                                        class="off">62% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-14"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="500">
+                        <div class="card printed" onclick="p14()">
+                            <img class="card-img-top" src="/assets/images/img-18.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Black I Need Some Space Teddy Graphic Printed T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹399</span> <del>₹999</del> <span
+                                        class="off">60% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-15"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="600">
+                        <div class="card printed oversized" onclick=" p15()">
+                            <img class="card-img-top" src="/assets/images/img-19.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Blue Black Panther Typography Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹549</span> <del>₹949</del> <span
+                                        class="off">42% OFF</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-xl-3 col-sm-6 col-md-4 col-lg-3 col-xxl-3" id="card-16"
+                    data-aos="flip-left" data-aos-easing="linear" data-aos-delay="700">
+                        <div class="card printed oversized" onclick=" p16()">
+                            <img class="card-img-top" src="/assets/images/img-20.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleek Style &#174;</h5>
+                                <p class="card-text">Men's Black Explorer NASA Graphic Printed Oversized T-shirt</p>
+                                <h5 class="card-price"><span class="price">₹599</span> <del>₹1499</del> <span
+                                        class="off">60% OFF</span></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section-1-End -->
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-main">
+                <div>
+                    <div class="footer-head">INFORMATION</div>
+                    <div class="footer-para">About us</div>
+                    <div class="footer-para">Contact Us</div>
+                    <div class="footer-para">Career</div>
+                    <div class="footer-para">My Accounts</div>
+                    <div class="footer-para">Orders and Returns</div>
+                </div>
+                <div>
+                    <div class="footer-head">HELP</div>
+                    <div class="footer-para">Help & FAQs</div>
+                    <div class="footer-para">Returns Policy</div>
+                    <div class="footer-para">Terms & Conditions</div>
+                    <div class="footer-para">Privacy Policy</div>
+                    <div class="footer-para">Support Center</div>
+                </div>
+                <div class="footer-4">
+                    <div class="footer-head">Join the A-List and save 15%</div>
+                    <div class="footer-para">Follow the latest trends, sales and styles.</div>
+                    <div class="footer-form"><input type="text" placeholder="Email address"></div>
+                    <div class="footer-btn"><button>SUBSCRIBE</button></div>
+                </div>
+                <div class="footer-1">
+                    <div class="footer-logo">Sleek Style</div>
+                    <div class="footer-icons">
+                        <div class="footer-facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="footer-twitter"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="footer-pinterest"><i class="fa-brands fa-pinterest-p"></i></div>
+                        <div class="footer-insta"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-end">
+                <div class="end-flex">
+                    <div>Sleek Style. All Rights Reserved.</div>
+                    <div class="end-right">
+                        <div><svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                role="img" width="38" height="24" aria-labelledby="pi-visa">
+                                <title id="pi-visa">Visa</title>
+                                <path opacity=".07"
+                                    d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                </path>
+                                <path
+                                    d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z"
+                                    fill="#142688"></path>
+                            </svg></div>
+                        <div><svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                role="img" width="38" height="24" aria-labelledby="pi-master">
+                                <title id="pi-master">Mastercard</title>
+                                <path opacity=".07"
+                                    d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                </path>
+                                <circle fill="#EB001B" cx="15" cy="12" r="7"></circle>
+                                <circle fill="#F79E1B" cx="23" cy="12" r="7"></circle>
+                                <path fill="#FF5F00"
+                                    d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z">
+                                </path>
+                            </svg></div>
+                        <div>
+                            <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img"
+                                viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express">
+                                <title id="pi-american_express">American Express</title>
+                                <g fill="none">
+                                    <path fill="#000"
+                                        d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z"
+                                        opacity=".07"></path>
+                                    <path fill="#006FCF"
+                                        d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1">
+                                    </path>
+                                    <path fill="#FFF"
+                                        d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg class="icon icon--full-color" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965"
+                                xml:space="preserve" aria-labelledby="pi-apple_pay">
+                                <title id="pi-apple_pay">Apple Pay</title>
+                                <path fill="#000"
+                                    d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875">
+                                </path>
+                                <g>
+                                    <g>
+                                        <path fill="#000"
+                                            d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858">
+                                        </path>
+                                        <path fill="#000"
+                                            d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048">
+                                        </path>
+                                    </g>
+                                    <g>
+                                        <path fill="#000"
+                                            d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z">
+                                        </path>
+                                        <path fill="#000"
+                                            d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z">
+                                        </path>
+                                        <path fill="#000"
+                                            d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                width="38" height="24" role="img" aria-labelledby="pi-paypal">
+                                <title id="pi-paypal">PayPal</title>
+                                <path opacity=".07"
+                                    d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                </path>
+                                <path fill="#003087"
+                                    d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z">
+                                </path>
+                                <path fill="#3086C8"
+                                    d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z">
+                                </path>
+                                <path fill="#012169"
+                                    d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img"
+                                viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-google_pay">
+                                <title id="pi-google_pay">Google Pay</title>
+                                <path
+                                    d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
+                                    fill="#000" opacity=".07"></path>
+                                <path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"
+                                    fill="#FFF"></path>
+                                <path
+                                    d="M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z"
+                                    fill="#5F6368"></path>
+                                <path
+                                    d="M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z"
+                                    fill="#4285F4"></path>
+                                <path
+                                    d="M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z"
+                                    fill="#34A853"></path>
+                                <path
+                                    d="M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z"
+                                    fill="#FBBC04"></path>
+                                <path
+                                    d="M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z"
+                                    fill="#EA4335"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .Footer-End -->
+    </div>
+    <div class="product-main">
+        <!-- product-1 -->
+        <div class="product-page" id="p1">
+            <article class="product" id="o1">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-1.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Black Game Over Minimal Typography T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹583</p>
+                        <p class="old-price"></span><del>₹1699</del> <span class="off-product">64% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()">
+                        <button class="cart-button"> <span class="add-to-cart">Add to cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button>
+                    </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-1-end -->
+        <!-- product-2 -->
+        <div class="product-page" id="p2">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img2.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Grey Spider Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹749</p>
+                        <p class="old-price"></span><del>₹1499</del> <span class="off-product">50% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-2-end -->
+        <!-- product-3-->
+        <div class="product-page" id="p3">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-3.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Lilac The Traveller Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹599</p>
+                        <p class="old-price"></span><del>₹1299</del> <span class="off-product">53% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-3-end -->
+        <!-- product-4-->
+        <div class="product-page" id="p4">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-4.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Yellow T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹849</p>
+                        <p class="old-price"></span><del>₹2199</del> <span class="off-product">61% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-4-end -->
+        <!-- product-5-->
+        <div class="product-page" id="p5">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-5.jpg" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Green Snoopy Stripboard Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹649</p>
+                        <p class="old-price"></span><del>₹1299</del> <span class="off-product">50% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-5-end -->
+        <!-- product-6-->
+        <div class="product-page" id="p6">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-6.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Green & Black Color Block Polo T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹599</p>
+                        <p class="old-price"></span><del>₹1699</del> <span class="off-product">64% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-6-end -->
+        <!-- product-7-->
+        <div class="product-page" id="p7">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-7.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Pink Tom Chase Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹510</p>
+                        <p class="old-price"></span><del>₹1399</del> <span class="off-product">63% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-7-end -->
+        <!-- product-8-->
+        <div class="product-page" id="p8">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-8.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Pink Tom Chase Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹749</p>
+                        <p class="old-price"></span><del>₹1299</del> <span class="off-product">42% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-8-end -->
+        <!-- product-9-->
+        <div class="product-page" id="p9">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-9.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's White T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹799</p>
+                        <p class="old-price"></span><del>₹1649</del> <span class="off-product">51% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-9-end -->
+        <!-- product-10-->
+        <div class="product-page" id="p10">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-10.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Red Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹583</p>
+                        <p class="old-price"></span><del>₹1799</del> <span class="off-product">67% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-10-end -->
+        <!-- product-11-->
+        <div class="product-page" id="p11">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-11.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Red Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹549</p>
+                        <p class="old-price"></span><del>₹799</del> <span class="off-product">31% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-11-end -->
+        <!-- product-12-->
+        <div class="product-page" id="p12">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/imhg-12.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Pink Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹549</p>
+                        <p class="old-price"></span><del>₹799</del> <span class="off-product">31% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-13-end -->
+        <!-- product-13-->
+        <div class="product-page" id="p13">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-17.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Lemon Crome & Crimson Red Color Block Polo T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹449</p>
+                        <p class="old-price"></span><del>₹1199</del> <span class="off-product">62% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-13-end -->
+        <!-- product-14-->
+        <div class="product-page" id="p14">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-18.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Black I Need Some Space Teddy Graphic Printed T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹399</p>
+                        <p class="old-price"></span><del>₹999</del> <span class="off-product">60% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-14-end -->
+        <!-- product-15-->
+        <div class="product-page" id="p15">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-19.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Blue Black Panther Typography Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹549</p>
+                        <p class="old-price"></span><del>₹959</del> <span class="off-product">42% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+        <!-- product-15-end -->
+        <!-- product-16-->
+        <div class="product-page" id="p16">
+            <article class="product">
+                <div class="left-card">
+                    <img class="poster-img1" src="/assets/images/img-20.webp" />
+                </div>
+                <div class="right-card">
+                    <h2 class="item-name">Sleek Style ®</h2>
+                    <h1 class="main-title">Men's Black Explorer NASA Graphic Printed Oversized T-shirt</h1>
+                    <p class="summary">
+                        Return Policy
+                        This product is eligible for return or exchange under our 30-day return or exchange policy. No
+                        questions asked.
+                    </p>
+                    <div class="price">
+                        <p class="current-price">₹599</p>
+                        <p class="old-price"></span><del>₹1499</del> <span class="off-product">60% OFF</span></p>
+                    </div>
+                    <div class="buttons" onclick="cart()"> <button class="cart-button"> <span class="add-to-cart">Add to
+                                cart</span>
+                            <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i
+                                class="fa fa-square"></i> </button> </div>
+                </div>
+                <div class="cancel" onclick="cancel()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </article>
+        </div>
+
+        <!-- product-16-end -->
+        <div class="top" onclick="topFunction()" id="top-btn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="/assets/js/index.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.hamburger').click(function () {
+                $('.nav-center').toggleClass('nav-active');
+            })
+        })
+    </script>
+
+</body>
+
+</html>
